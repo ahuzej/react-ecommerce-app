@@ -1,0 +1,39 @@
+.item {
+    display:flex;
+    flex-direction: column;
+    width:22%;
+    height: 420px;
+    align-items: center;
+
+
+    .img {
+        display:block;
+        height: 95%;
+        width:100%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom:.5rem;
+    }
+
+}
+
+.content {
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.4rem;
+    margin-top:0.2rem;
+    height: 5%;
+
+    h3 {
+        margin:0;
+        font-weight: 300;
+        font-size:inherit;
+    }
+
+    span {
+        font-size:inherit;
+    }
+
+}
