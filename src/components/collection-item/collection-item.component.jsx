@@ -7,7 +7,7 @@ const CollectionItem = ({ imageUrl, id, name, price }) => <div className='item' 
             backgroundImage: `url(${imageUrl})` 
         }}
     />
-    <div className='content'>
+    <div className='sub-text'>
         <h3>{name}</h3>
         <span>{`${price}$`}</span>
 
